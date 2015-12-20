@@ -14,14 +14,15 @@ dotfiles
 Clone this repo (or your own fork!) to your **home** directory (`/Users/username`).
 ```
 $ cd ~
-$ git clone https://github.com/mscoutermarsh/dotfiles
+$ git clone https://github.com/ricardoamaro/dotfiles
 ```
 
 Install rcm
 
 ```
-$ brew tap thoughtbot/formulae
-$ brew install rcm
+$ sudo add-apt-repository ppa:martin-frost/thoughtbot-rcm
+$ sudo apt-get update
+$ sudo apt-get install rcm
 ```
 
 Run rcm (this command expects that you cloned your dotfiles to `~/dotfiles/`)
